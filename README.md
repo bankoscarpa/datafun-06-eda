@@ -1,6 +1,13 @@
 # datafun-06-eda
 Project: Begin with the end in mind
 
+## Dataset
+
+This project uses the **Diamonds dataset**.  
+The CSV file is included in this repository: [diamonds.csv](diamonds.csv)
+
+
+
 DIRECTIONS
 Specification for Project 6 EDA Notebook
 Overview
