@@ -8,11 +8,14 @@ The notebook includes descriptive statistics, data visualizations, and insights 
 
 ---
 
-##  Dataset Information
+# Diamonds EDA
+
+## 📊 Dataset Information
 **Source:** `seaborn.load_dataset('diamonds')`  
 
 **Features:**
-- **price**: Price in US dollars (\$326–\$18,823)  
+
+- **price**: Price in US dollars ($326–$18,823)  
 - **carat**: Weight of the diamond (0.2–5.01)  
 - **cut**: Quality of the cut (Fair, Good, Very Good, Premium, Ideal)  
 - **color**: Diamond color, from J (worst) to D (best)  
@@ -21,42 +24,48 @@ The notebook includes descriptive statistics, data visualizations, and insights 
 - **depth**: Total depth percentage  
 - **table**: Width of the top of the diamond relative to widest point  
 
+---
+
 ## 📁 Project Structure
-```text
+```
 diamonds-eda/
 ├── notebooks/
 │   └── diamonds_eda.ipynb   # Main notebook with analysis
-├── requirements.txt
-└── README.md
+├── requirements.txt         # Python dependencies
+└── README.md                # This file
+```
 
-**## Quick Start
-1 - Clone this repo
+---
 
-git clone <(https://github.com/bankoscarpa/datafun-06-eda)>
+## 🚀 Quick Start
+
+Follow these steps to set up the project locally:
+
+### 1️⃣ Clone the Repository
+```
+git clone https://github.com/bankoscarpa/datafun-06-eda
 cd diamonds-eda
+```
 
-
-2 - Create virtual environment & activate it
-
+### 2️⃣ Create Virtual Environment & Activate
+```
 python -m venv .venv
-.venv\Scripts\activate   # Windows
-source .venv/bin/activate # Mac/Linux
 
+# Windows
+.venv\Scripts\activate
 
-3 - Install dependencies
+# Mac/Linux
+source .venv/bin/activate
+```
 
+### 3️⃣ Install Dependencies
+```
 pip install -r requirements.txt
+```
 
-
-4 - Launch Jupyter Notebook
-
+### 4️⃣ Launch Jupyter Notebook
+```
 jupyter notebook
+```
 
-
-## Learning Outcomes
-
-Hands-on EDA workflow in Python
-
-Data visualization with matplotlib and seaborn
-
-Identifying patterns, trends, and insights from real-world data
+Open `notebooks/diamonds_eda.ipynb` to start exploring the data and analysis.
